@@ -10,6 +10,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.3/socket.io.min.js"></script>
     <script src="https://sniffypedia.org/js/index.js"></script>
     <script type="text/javascript" src="js/socket.min.js"></script>
+    <script type="text/javascript" src="js/cormorant.js"></script>
     <script type="text/javascript" src="js/quividi-reelyactive-demo.js"></script>
   </head>
   <body ng-app="demo">
@@ -39,7 +40,11 @@
 
           <!----- Quividi facial analytics ----->
           <div class="col-md-6">
-            <h1> Quividi </h1>
+            <h1> Quividi <small> Real-time video analytics </small> </h1>
+            <div style="height:320px">
+              <img ng-src="{{videoAnalytics.image}}" style="max-height:320px"
+                   class="img-featured img-circle img-responsive center-block">
+            </div>
             <table class="table table-hover">
               <caption> VIDEO ANALYTICS </caption>
                 <thead>
@@ -79,7 +84,11 @@
 
           <!----- reelyActive Bluetooth Low Energy analytics ----->
           <div class="col-md-6">
-            <h1> reelyActive </h1>
+            <h1> reelyActive <small> Real-time radio analytics </small> </h1>
+            <div style="height:320px">
+              <img ng-src="{{presentStory.image}}" style="max-height:320px"
+                   class="img-featured img-circle img-responsive center-block">
+            </div>
             <table class="table table-hover">
               <caption> BLUETOOTH LOW ENERGY ANALYTICS </caption>
                 <thead>
@@ -105,6 +114,10 @@
                   <tr>
                     <td> RSSI </td>
                     <td> {{radioAnalytics.rssi}} </td>
+                 </tr>
+                  <tr>
+                    <td> Presence </td>
+                    <td> {{radioAnalytics.presence}}s </td>
                  </tr>
                 </tbody>
              </table>
