@@ -1,0 +1,41 @@
+{
+  "name": "quividi-reelyactive-demo",
+  "homepage": "https://github.com/reelyactive/quividi-reelyactive-demo/",
+  "author": "reelyActive <webdev@reelyactive.com>",
+  "description": "Demonstration of Quividi real-time video demographics alongside reelyActive real-time BLE detection.  We believe in an open Internet of Things.",
+  "keywords": [
+    "reelyActive",
+    "Quividi",
+    "video analytics",
+    "BLE",
+    "real-time"
+  ],
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "main": "./lib/server.js",
+  "bin": {
+    "quividi-reelyactive-demo": "./bin/quividi-reelyactive-demo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reelyactive/quividi-reelyactive-demo.git"
+  },
+  "dependencies": {
+    "barnowl": ">=0.4.23",
+    "reelib": ">=0.0.15",
+    "serialport": ">=4.0.0",
+    "express": ">=4.0.0",
+    "socket.io": ">=1.7.3",
+    "websocket": ">=1.0.24"
+  },
+  "devDependencies": {},
+  "bugs": {
+    "url": "https://github.com/reelyactive/quividi-reelyactive-demo/issues"
+  },
+  "contributors": [
+    { "name": "Jeffrey Dungen" }
+  ],
+  "license": "MIT"
+}
