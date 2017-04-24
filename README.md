@@ -23,6 +23,8 @@ From the root folder of the repository run:
 
 Then browse to [localhost:3000](http://localhost:3000).
 
+![Quividi reelyActive demo screenshot](https://reelyactive.github.io/quividi-reelyactive-demo/images/quividi-reelyactive-demo.png)
+
 
 License
 -------
