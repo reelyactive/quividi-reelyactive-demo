@@ -15,7 +15,7 @@ Clone this repository, then from its root folder run:
 Hello Quividi-reelyActive Demo!
 -------------------------------
 
-Connect a reelyActive minimal starter kit to your PC's USB port, and ensure that Quividi VidiReports is running on your PC.
+Connect a [reelyActive minimal starter kit](https://shop.reelyactive.com/products/starterkit-min) to your PC's USB port, and ensure that [Quividi VidiReports](http://www.quividi.com/products-services/) is running on your PC.
 
 From the root folder of the repository run:
 
